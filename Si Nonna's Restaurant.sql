@@ -33,9 +33,9 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Nonna’s Tiramisu', 'Dessert', 'Mascarpone cream, eggs, biscuit, espresso, rum', 400, 'veg'),
 ('Hazelnut & Chocolate Dough Balls', 'Dessert', 'Fried dough, hazelnut chocolate sauce', 350, 'veg');
 
---> Insert More Data <--
+-- Insert More Data --
 
---> Pizzas
+-- Pizzas
 INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Margherita', 'Pizza', 'Tomato sauce, mozzarella, basil', 450, 'veg'),
 ('Quattro Formaggi', 'Pizza', 'Mozzarella, gorgonzola, parmesan, ricotta', 580, 'veg'),
@@ -59,7 +59,7 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Basil Chicken', 'Pizza', 'Chicken, basil, tomato base, mozzarella', 600, 'non-veg');
 
 
---> BREADS
+-- BREADS
 INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Focaccia Classica', 'Breads', 'Olive oil, rosemary, sea salt', 190, 'vegan'),
 ('Cheesy Garlic Bread', 'Breads', 'Garlic, mozzarella, parsley', 220, 'veg'),
@@ -72,7 +72,7 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Jain Garlic Bread', 'Breads', 'No onion/garlic, herbed butter', 210, 'jain'),
 ('Truffle Bread', 'Breads', 'Truffle oil, cheese', 300, 'veg');
 
---> DESSERTS
+-- DESSERTS
 INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Tiramisu', 'Dessert', 'Espresso-soaked biscuits, mascarpone, cocoa', 400, 'veg'),
 ('Panna Cotta', 'Dessert', 'Vanilla cream, berry compote', 350, 'veg'),
@@ -85,7 +85,7 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Jain Fruit Bowl', 'Dessert', 'Seasonal fruits with honey drizzle', 310, 'jain'),
 ('Almond Biscotti', 'Dessert', 'Italian almond cookies', 290, 'veg');
 
---> DRINKS
+-- DRINKS
 INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Espresso', 'Drinks', 'Strong Italian espresso shot', 100, 'vegan'),
 ('Americano', 'Drinks', 'Espresso + hot water', 120, 'vegan'),
@@ -103,7 +103,7 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Gin & Tonic', 'Alcohol', 'Classic cocktail', 400, 'vegan'),
 ('Mocktail Mix', 'Drinks', 'Blend of seasonal juices', 160, 'vegan');
 
---> DIPS & SAUCES
+-- DIPS & SAUCES
 INSERT INTO menu_items (name, category, description, price, type) VALUES
 ('Garlic Mayo', 'Dips', 'Creamy garlic aioli', 40, 'veg'),
 ('Spicy Marinara', 'Dips', 'Tangy tomato sauce', 40, 'vegan'),
@@ -128,7 +128,7 @@ INSERT INTO menu_items (name, category, description, price, type) VALUES
 
 
 
---> To View <--
+-- To View --
 
 -- 1. COUNT: Get the total number of menu items
 SELECT COUNT(*) AS total 
