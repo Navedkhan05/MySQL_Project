@@ -18,7 +18,19 @@ At Si Nonna’s, the star of the show is their signature sourdough pizza, crafte
 
 **Database Management Tool (Optional)**
 
-> Tools like phpMyAdmin, MySQL Workbench, or command line help manage your database easily.
+> Tools like **phpMyAdmin, MySQL Workbench,** or **command line** help manage your database easily.
+
+**PHP Installed**
+
+> Ensure PHP is installed (comes bundled with XAMPP/WAMP) to run ```.php``` files.
+
+**Localhost Environment**
+
+> Run the project locally using tools like **XAMPP** or **WAMP** for testing and development.
+
+**Browser Access**
+
+> Open your browser and navigate to ```http://localhost/your-folder-name``` to view the project output.
 
 # Steps
 
